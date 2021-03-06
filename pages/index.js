@@ -1,51 +1,53 @@
 import Head from 'next/head'
 
+//custom 
+
+
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>The Anti-Oki Podcast</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <img src="/images/banner.png" alt="Anti-Oki Podcast Banner"/>
+         
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+      Website Under Construction...<br></br>
+      In the meantime, check us out on the following platforms....
         </p>
+<br></br>
+<br></br>
 
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+<div className="row">
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+<a href="https://www.youtube.com/channel/UCuBxuIYqEJ3eWN3xw6_IAKg" className="card">
+
+<img src="" alt="Listen On YouTube" width={144}/>
+</a>
+
+</div>
+
+ <div className="row">
+ 
+
+          <a href="https://open.spotify.com/show/7gXUantVR1aw9ynMoqiXFC?si=kYlhtzgBTACKUSRFLUftZg" className="card">
+          <img src="/images/listenonspotify.png" alt="Listen On Spotify" width={144}/>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            href="https://soundcloud.com/antiokipodcast"
+            className="card" >
+          <img src="/images/listenonsoundcloud.png" alt="Listen On SoundCloud" width={144}/>
           </a>
+          </div>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+          
       </main>
 
       <footer>
@@ -54,8 +56,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Assembled by{' '}
+          <img src="/images/mrbehaviorlogo.png" alt="Mister Behavior" className="logo" />
         </a>
       </footer>
 
@@ -149,13 +151,13 @@ export default function Home() {
         }
 
         .card {
-          margin: 1rem;
+          margin: 2rem;
           flex-basis: 45%;
-          padding: 1.5rem;
+          padding:  .5rem;
           text-align: left;
           color: inherit;
           text-decoration: none;
-          border: 1px solid #eaeaea;
+          border: 1px solid #304302;
           border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
         }
@@ -179,7 +181,7 @@ export default function Home() {
         }
 
         .logo {
-          height: 1em;
+          height: 7em;
         }
 
         @media (max-width: 600px) {
