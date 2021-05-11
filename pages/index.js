@@ -10,7 +10,7 @@ export default function Home() {
         <title>The Anti-Oki Podcast</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+    
       <main>
         <h1 className="title">
         <img src="/images/banner.png" alt="Anti-Oki Podcast Banner"/>
@@ -52,7 +52,7 @@ export default function Home() {
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://www.minds.com/mrbehavior"
           target="_blank"
           rel="noopener noreferrer"
         >
