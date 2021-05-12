@@ -20,7 +20,9 @@ export default function Ceelows() {
       </p>
       <div className="row" style={{paddingTop: '30px'}}>
       <div className="col">
-      <a href="https://www.youtube.com/user/TheCeelows">
+      <a href="https://www.youtube.com/user/TheCeelows"
+      target="_blank"
+      rel="noopener noreferrer">
       <Image
       src='/images/Youtube.png'
       alt="youtubethumbnail"
@@ -31,7 +33,9 @@ export default function Ceelows() {
       </a>
       </div>
       <div className="col">
-      <a href="https://www.twitch.tv/ceelows">
+      <a href="https://www.twitch.tv/ceelows"
+      target="_blank"
+      rel="noopener noreferrer">
       <Image
       src='/images/twitch.png'
       alt="twitchthumbnail"
@@ -42,7 +46,9 @@ export default function Ceelows() {
       </a>
       </div>
       <div className="col">
-      <a href="https://www.minds.com/ceelows/">
+      <a href="https://www.minds.com/ceelows/"
+      target="_blank"
+      rel="noopener noreferrer">
       <Image
       src='/images/MindsLogo.png'
       alt="mindsthumbnail"

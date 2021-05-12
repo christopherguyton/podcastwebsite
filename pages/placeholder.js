@@ -1,16 +1,16 @@
 import Head from 'next/head'
 
 //custom 
+import NavBar from '../components/NavBar'
 
-
-export default function Home() {
+export default function PlaceHolder() {
   return (
     <div className="container">
       <Head>
         <title>The Anti-Oki Podcast</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    
+
       <main>
         <h1 className="title">
         <img src="/images/banner.png" alt="Anti-Oki Podcast Banner"/>
@@ -18,8 +18,8 @@ export default function Home() {
         </h1>
 
         <p className="description">
-      Build 1 is here... but the website is STILL under heavy construction...<br></br>
-      <a style={{color:'blue'}} href="/about">CLICK HERE TO ENTER</a>
+      Members Area Coming Soon...<br></br>
+      <a style={{color:'blue'}} href="/about">Back To Site</a>
         </p>
 <br></br>
 <br></br>

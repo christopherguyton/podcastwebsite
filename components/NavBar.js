@@ -47,10 +47,10 @@ const NavBar = (props) => {
           </Nav>
           <Nav style={{fontFamily: 'Roboto', fontWeight: 'bold', justifyContent: 'center'}} navbar>
           <NavItem className="ml-auto">
-          <NavLink href="/misterbehavior" style={{color: 'black'}}>Sign In</NavLink>
+          <NavLink href="/placeholder" style={{color: 'black'}}>Sign In</NavLink>
           </NavItem>
           <NavItem className="ml-auto">
-          <NavLink href="/misterbehavior" style={{color: 'white'}}>Become A Member</NavLink>
+          <NavLink href="/placeholder" style={{color: 'white'}}>Become A Member</NavLink>
           </NavItem>
           </Nav>
         </Collapse>

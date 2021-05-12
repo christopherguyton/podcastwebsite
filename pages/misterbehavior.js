@@ -22,7 +22,9 @@ export default function Welcome() {
            </p>
            <div className="row" style={{paddingTop: '30px'}}>
            <div className="col">
-           <a href="https://www.youtube.com/user/MisterBehavior">
+           <a href="https://www.youtube.com/user/MisterBehavior"
+           target="_blank"
+           rel="noopener noreferrer">
            <Image
            src='/images/Youtube.png'
            alt="youtubethumbnail"
@@ -33,7 +35,9 @@ export default function Welcome() {
            </a>
            </div>
            <div className="col">
-           <a href="https://www.twitch.tv/mrbehavior">
+           <a href="https://www.twitch.tv/mrbehavior"
+           target="_blank"
+           rel="noopener noreferrer">
            <Image
            src='/images/twitch.png'
            alt="twitchthumbnail"
@@ -44,7 +48,9 @@ export default function Welcome() {
            </a>
            </div>
            <div className="col">
-           <a href="https://www.minds.com/mrbehavior">
+           <a href="https://www.minds.com/mrbehavior"
+           target="_blank"
+           rel="noopener noreferrer">
            <Image
            src='/images/MindsLogo.png'
            alt="mindsthumbnail"
