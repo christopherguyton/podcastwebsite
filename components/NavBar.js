@@ -20,7 +20,7 @@ const NavBar = (props) => {
   return (
     <div>
     
-      <Navbar style={{backgroundColor: '#0D8FB4', paddingBottom: '20px', paddingTop: '20px'}} light expand="lg">
+      <Navbar style={{backgroundColor: '#0D8FB4', paddingBottom: '10px', paddingTop: '20px'}} light expand="lg">
    
         <NavbarBrand href="/">   
          <Image
@@ -33,7 +33,7 @@ const NavBar = (props) => {
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav style={{fontFamily: 'Roboto', fontWeight: 'bold'}}className="mr-auto" navbar>
+          <Nav style={{fontFamily: 'Roboto', fontWeight: 'bold'}} className="container-fluid" navbar>
             <NavItem>
               <NavLink href="/about" style={{color: '#FFF7E7'}}>About The Show</NavLink>
             </NavItem>
@@ -43,8 +43,18 @@ const NavBar = (props) => {
             <NavItem>
               <NavLink href="/ceelows" style={{color: '#FFF7E7'}}>Ceelows</NavLink>
             </NavItem>
+            
+          </Nav>
+          <Nav style={{fontFamily: 'Roboto', fontWeight: 'bold', justifyContent: 'center'}} navbar>
+          <NavItem className="ml-auto">
+          <NavLink href="/misterbehavior" style={{color: 'black'}}>Sign In</NavLink>
+          </NavItem>
+          <NavItem className="ml-auto">
+          <NavLink href="/misterbehavior" style={{color: 'white'}}>Become A Member</NavLink>
+          </NavItem>
           </Nav>
         </Collapse>
+    
       </Navbar>
     </div>
     

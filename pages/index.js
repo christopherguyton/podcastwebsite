@@ -56,7 +56,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Assembled by{' '}
+          Website Assembled by{' '}
           <img src="/images/mrbehaviorlogo.png" alt="Mister Behavior" className="logo" />
         </a>
       </footer>
